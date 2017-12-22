@@ -199,14 +199,3 @@ xlab = "Interval", ylab = "Average number of steps taken", main = "Interval and 
 ```
 
 ![plot of chunk time series plot day type](figure/time series plot day type-1.png)
-
-```r
-knit2html()
-```
-
-```
-## Error in file(input, encoding = encoding): argument "input" is missing, with no default
-```
-
-
-
