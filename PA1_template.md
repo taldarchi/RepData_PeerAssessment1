@@ -1,7 +1,7 @@
 ---
 title: "PA1_template"
 author: "Tal Darchi"
-date: "19 ·„ˆÓ·¯ 2017"
+date: "19 √°√£√∂√Æ√°√∏ 2017"
 output: html_document
 ---
 
@@ -37,7 +37,7 @@ plot(totalStepsDF$date, totalStepsDF$steps, type="h",
 abline(h  = mean(totalStepsDF$steps, na.rm = T), col = "lightgrey", lwd = 2)
 ```
 
-![plot of chunk histogram total steps](figure/histogram total steps-1.png)
+![plot of chunk histogram total steps](figure/histogram%20total%20steps-1.png)
 
 The mean and median of the total number of steps taken per day:
 
