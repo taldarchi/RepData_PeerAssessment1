@@ -78,7 +78,7 @@ plot(unique(amd$interval),meanStepsInterval, type = "l", xlab = "Interval",
      main = "Average daily activity pattern - Time series plot")
 ```
 
-![plot of chunk time series plot](figure/time series plot-1.png)
+![plot of chunk time series plot](figure/time%20series%20plot-1.png)
 
 The 5-minute interval, on average across all the days in the dataset, that contains the maximum number of steps:
 
@@ -133,7 +133,7 @@ plot(totalStepsDFClean$date, totalStepsDFClean$steps, type="h",
 abline(h  = mean(totalStepsDFClean$steps, na.rm = T), col = "red", lwd = 2)
 ```
 
-![plot of chunk total steps new hist](figure/total steps new hist-1.png)
+![plot of chunk total steps new hist](figure/total%20steps%20new%20hist-1.png)
 
 The mean and median of the total number of steps taken per day for the new dataset:
 
@@ -198,4 +198,4 @@ xyplot(steps ~ interval | dayType, data = stepsMeanIntervalDay, type="l", aspect
 xlab = "Interval", ylab = "Average number of steps taken", main = "Interval and average steps across all weekday days or weekend days")
 ```
 
-![plot of chunk time series plot day type](figure/time series plot day type-1.png)
+![plot of chunk time series plot day type](figure/time%20series%20plot%20day%20type-1.png)
